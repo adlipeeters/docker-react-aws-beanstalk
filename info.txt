@@ -13,3 +13,9 @@ docker exec -it ebecc1661cf9 npm run test
 docker build -t my-react-app .
 
 docker run -p 8080:80 my-react-app
+
+git remote add origin https://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@github.com/adlipeeters/docker-react-aws-beanstalk.git
+git remote add origin https://github.com/adlipeeters/docker-react-aws-beanstalk.git
+
+git remote set-url origin https://adlipeeters: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@github.com/adlipeeters/docker-react-aws-beanstalk.git
+git remote set-url origin https://adlipeeters@github.com/adlipeeters/docker-react-aws-beanstalk.git
